@@ -103,6 +103,10 @@ body {
     margin-left: 30%;
 }
 
+.intro hr {
+    margin-inline-end: 28%;
+}
+
 .main-text-container {
     width: 100%;
     padding-top: 100px;
@@ -151,7 +155,7 @@ body {
     display: flex;
     width: 100%;
     background-color: #5E5E5E0D;
-    column-gap: 10%;
+    column-gap: 15%;
     height: 100px;
 }
 
@@ -161,16 +165,14 @@ body {
 }
 
 .points {
-    display: flex;
-    flex-basis: 100%;
-    gap: 2rem;
     font-size: 10px;
     font-weight: bold;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.points > * {
+.points p {
+    width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
